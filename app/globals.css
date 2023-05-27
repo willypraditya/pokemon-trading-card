@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #ffffff;
+    --secondary: #f5f8fc;
+}
+
+html {
+    min-width: 1000px;
+}
+
+body {
+    background-color: var(--secondary);
+}
