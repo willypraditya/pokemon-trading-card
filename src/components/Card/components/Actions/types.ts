@@ -1,5 +1,3 @@
-import { Dispatch, SetStateAction } from 'react';
-
 import { CardInterface } from '../../types';
 
 export interface CardActionsProps {

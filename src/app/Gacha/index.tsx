@@ -2,7 +2,6 @@ import { ReactElement } from 'react';
 
 import Card from '@/components/Card';
 import Loading from '@/components/Loading';
-import NotFound from '@/components/NotFound';
 
 import useGachaHooks from './hooks';
 

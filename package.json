@@ -7,6 +7,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
+        "typescript": "tsc",
         "compile": "graphql-codegen --config src/utils/Apollo/codegen.ts",
         "watch": "graphql-codegen --config src/utils/Apollo/codegen.ts -w"
     },
