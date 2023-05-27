@@ -76,7 +76,8 @@ const CardActions = ({
                     />
                     <div className="relative z-0 bg-white rounded-b-xl p-5 pt-0">
                         <div className="flex justify-center items-center gap-5">
-                            {gachaSelectedCardId === data?.id && (
+                            {(gachaSelectedCardId === data?.id ||
+                                gachaSelectedCardId === '') && (
                                 <>
                                     {!showDelete ? (
                                         <div>

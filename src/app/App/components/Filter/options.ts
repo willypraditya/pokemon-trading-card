@@ -1,5 +1,4 @@
 export const rarityOptions = [
-    { value: '', label: 'All Rarity' },
     { value: 'common', label: 'Common' },
     { value: 'uncommon', label: 'Uncommon' },
     { value: 'rare', label: 'Rare' },

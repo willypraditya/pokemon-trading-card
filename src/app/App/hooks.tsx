@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import { useQuery } from '@apollo/client';
 
@@ -10,7 +10,7 @@ const useAppHooks = () => {
     const [searchValue, setSearchValue] = useState<string>('');
     const debouncedSearchValue = useDebounce(searchValue, 0.5);
 
-    const [rarityValue, setRarityValue] = useState<string>('');
+    const [rarityValue, setRarityValue] = useState<string>('common');
 
     const [page, setPage] = useState<number>(1);
 

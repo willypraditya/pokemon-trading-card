@@ -1,14 +1,13 @@
-import { ReactElement, useEffect, useState } from 'react';
+import { ReactElement, useState } from 'react';
 
 import Image from 'next/image';
 
 import blankPokemon from 'public/blank-pokemon.png';
 import cardBack from 'public/card-back.png';
-import { toast } from 'react-toastify';
 
 import CardActions from './components/Actions';
 import CardDetails from './components/Details';
-import { CardInterface, CardProps } from './types';
+import { CardProps } from './types';
 
 const Card = ({
     data,
