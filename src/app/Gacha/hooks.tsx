@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { useLazyQuery, useQuery } from '@apollo/client';
+import { useQuery } from '@apollo/client';
 
 import { CardInterface } from '@/components/Card/types';
 
