@@ -1,3 +1,3 @@
 'use client';
 
-export { default } from '@/pages/Favorites';
+export { default } from '@/app/Favorites';

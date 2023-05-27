@@ -1,3 +1,3 @@
 'use client';
 
-export { default } from '@/pages/App';
+export { default } from '@/app/App';

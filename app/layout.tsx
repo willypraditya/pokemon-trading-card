@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <html lang="en">
-            <body>
+        <html lang="en" className="min-w-[1000px]">
+            <body style={{ backgroundColor: '#f5f8fc' }}>
                 <Headers />
                 <ToastWrapper />
                 <ApolloWrapper>{children}</ApolloWrapper>

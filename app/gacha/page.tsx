@@ -1,3 +1,3 @@
 'use client';
 
-export { default } from '@/pages/Gacha';
+export { default } from '@/app/Gacha';
